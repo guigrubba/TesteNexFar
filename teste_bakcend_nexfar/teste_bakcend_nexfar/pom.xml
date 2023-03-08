@@ -40,7 +40,12 @@
 			<artifactId>opencsv</artifactId>
 			<version>3.8</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>bson</artifactId>
+            <version>4.8.2</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
